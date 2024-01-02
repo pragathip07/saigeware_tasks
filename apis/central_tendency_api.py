@@ -1,4 +1,3 @@
-import statistics
 from flask import request, Blueprint
 from flask_cors import CORS
 import numpy as np

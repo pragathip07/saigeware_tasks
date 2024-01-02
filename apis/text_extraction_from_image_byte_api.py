@@ -8,12 +8,12 @@ from config import logger
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
 
-extract_text_from_image_byte_api = Blueprint('endpoint1', __name__)
-CORS(extract_text_from_image_byte_api)
+extract_text_from_image_api = Blueprint('endpoint1', __name__)
+CORS(extract_text_from_image_api)
 
 
-@extract_text_from_image_byte_api.route('/task1/endpoint1', methods=['POST'])
-def extract_text_from_image_byte_object():
+@extract_text_from_image_api.route('/task1/endpoint1', methods=['POST'])
+def extract_text_from_image():
 
     logger.info("Extract Text API")
 
