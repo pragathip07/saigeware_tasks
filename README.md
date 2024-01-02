@@ -1,13 +1,13 @@
-#TASK 1 
+# TASK 1 
 
-##TO BUILD AND RUN THE DOCKER IMAGE
+## TO BUILD AND RUN THE DOCKER IMAGE
 docker build -t image-name .
 docker run -p 8080:8080 --name container-name image-name
 
 The Flask App runs on all addresses (0.0.0.0) on port 8080
 
 
-##ENDPOINT 1
+## ENDPOINT 1
 Endpoint 1 : Text Extraction from the Image : 
     url_example : https://localhost:8080/task1/endpoint1 or (http://127.0.0.1:8080/task1/endpoint1)
 #    POST REQUEST - payload :
@@ -15,7 +15,7 @@ Endpoint 1 : Text Extraction from the Image :
                                                 'Value' - the input image files
 
 
-##ENDPOINT 2
+## ENDPOINT 2
 Endpoint 2 : Computation of Central Tendency : 
     local url : https://localhost:8080/task1/endpoint2 or (http://127.0.0.1:8080/task1/endpoint2)
 #    POST REQUEST - payload :
