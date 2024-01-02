@@ -5,7 +5,7 @@ import argparse
 
 
 from apis.health_check_api import get_app_health_api
-from apis.text_extraction_from_image_byte_api import extract_text_from_image_api
+from apis.text_extraction_from_image_api import extract_text_from_image_api
 from apis.central_tendency_api import compute_central_tendency_api
 
 
